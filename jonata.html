@@ -1,30 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        .container {
-        
-        background: #b900e7;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        }
-        </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>joniel</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #b900e7;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+  }
+
+  h1 {
+      text-align: center;
+      font-size: 36px;
+      margin-top: 50px;
+  }
+
+  .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      flex-wrap: wrap;
+  }
+
+  .container img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 20px;
+  }
+
+  .container h3 {
+      font-size: 24px;
+      margin: 20px;
+      text-align: center;
+  }
+
+  iframe {
+      border: none;
+      width: 100%;
+      height: 450px;
+      border-radius: 10px;
+  }
+
+  @media screen and (max-width: 500px) {
+      .container {
+          flex-direction: column;
+      }
+
+      .container img {
+          max-width: 100%;
+      }
+  }
+
+</style>
 </head>
 <body>
-  <h1> jonata e daniel</h1>
-  <div class="container">
-    <img src="https://media.discordapp.net/attachments/952623070542176347/952710567871782922/unknown.png?width=309&height=455" alt="Lamp" width="600" height="600">
-  </div>
-  <div><img src="https://media.discordapp.net/attachments/952623070542176347/952710536968167424/IMG-20210921-WA0007.png?width=256&height=455" alt="Lamp" width="600" height="600"></div> 
-  <div><h3> essa duplinha de sulista vai te esquentar nas noites frias em curitiba, e digo mais eles nãochupam apenas bergamota(͠≖ ͜ʖ͠≖),leve dois pelo preço de um :), eles podem ser encontrados em:</h3></div>
-<div class="container">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.044756263522!2d-49.2595139852359!3d-25.43676718378522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce45abc8fcacd%3A0xe97d288f3a0b65bc!2sRodoferrovi%C3%A1ria%20de%20Curitiba!5e0!3m2!1spt-BR!2sbr!4v1647216535955!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-</div>
+    <h1>Jonata e Daniel</h1>
+    <div class="container">
+        <img src="https://media.discordapp.net/attachments/952623070542176347/952710567871782922/unknown.png?width=309&height=455" alt="Jonata">
+        <img src="https://media.discordapp.net/attachments/952623070542176347/952710536968167424/IMG-20210921-WA0007.png?width=256&height=455" alt="Daniel">
+    </div>
+    <div class="container">
+        <h3>Essa duplinha de sulista vai te esquentar nas noites frias em Curitiba, e digo mais, eles não chupam apenas bergamota (͠≖ ͜ʖ͠≖). Leve dois pelo preço de um :). Eles podem ser encontrados na Rodoferroviária de Curitiba.</h3>
+    </div>
+    <div class="container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.044756263522!2d-49.2595139852359!3d-25.43676718378522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce45abc8fcacd%3A0xe97d288f3a0b65bc!2sRodoferrovi%C3%A1ria%20de%20Curitiba!5e0!3m2!1spt-BR!2sbr!4v1647216535955!5m2!1spt-BR!2sbr" allowfullscreen=""></iframe>
+    </div>
 </body>
 </html>

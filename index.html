@@ -1,35 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        .container {
-        
-        background: #b900e7;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        }
-        </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>garotos de programas</title>
-    <h1> venha conhecer os melhores garotos programas de sul,sudeste e região!!!!</h1>
+    <title>Garotos de Programa</title>
+    <style>
+        /* Define a fonte do texto e a cor de fundo da página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b900e7;
+        }
+            /* Define a aparência do título principal */
+    h1 {
+        text-align: center;
+        font-size: 36px;
+        color: #fff;
+        margin-top: 30px;
+    }
+
+    /* Define o estilo do container principal */
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Define o tamanho e a borda circular da imagem */
+    .container img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+
+    /* Define o estilo dos links */
+    .container a {
+        text-decoration: none;
+        color: #b900e7;
+        font-weight: bold;
+        margin-top: 20px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    /* Define o estilo dos links quando o mouse passa por cima */
+    .container a:hover {
+        color: #fff;
+        background-color: #b900e7;
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+    @media (max-width: 500px) {
+    /* Reduza o tamanho da imagem */
+    .container img {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* Ajuste o espaçamento entre os elementos */
+    .container {
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+    /* Altere o tamanho da fonte do título principal */
+    h1 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    /* Reduza o tamanho da fonte dos links */
+    .container a {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}
+</style>
 </head>
 <body>
-    <div class="container">
-    <img src="https://media.discordapp.net/attachments/952623070542176347/952712028533964800/20220313_203720.jpg" alt="Lamp" width="400" height="400">
-    </div>
-    <a href="rick.html">henrique escagion</a>
-    <div class="container">
-        <img src="https://media.discordapp.net/attachments/952623070542176347/952710475148316712/unknown.png" alt="Lamp" width="400" height="400">
-        <a href="duarte.html">duarte</a>
-    </div>
-    <div class="container">
-        <h1> nesse inverno é melhor se aquecer, e ninguem melhor para te esquentar do que essa dupla</h1>
-        <a href="jonata.html">jonata e danilo</a>
-        <img src="https://media.discordapp.net/attachments/952623070542176347/952720783501824091/unknown.png" alt="Lamp" width="400" height="400">
-    </div>
+    <!-- Adiciona o título principal -->
+    <h1>Conheça os melhores Garotos de Programa do Sul, Sudeste e Região!!!!</h1>
+    <!-- Adiciona o primeiro container com a imagem e o link -->
+<div class="container">
+    <img src="https://media.discordapp.net/attachments/952623070542176347/952712028533964800/20220313_203720.jpg" alt="Henrique Escagion">
+    <a href="rick.html">Henrique Escagion</a>
+</div>
+
+<!-- Adiciona o segundo container com a imagem e o link -->
+<div class="container">
+    <img src="https://media.discordapp.net/attachments/952623070542176347/952710475148316712/unknown.png" alt="Duarte">
+    <a href="duarte.html">Duarte</a>
+</div>
+
+<!-- Adiciona o terceiro container com a imagem, o título e o link -->
+<div class="container">
+    <img src="https://media.discordapp.net/attachments/952623070542176347/952720783501824091/unknown.png" alt="Jonata e Danilo">
+    <h1>Nesse inverno é melhor se aquecer, e ninguém melhor para te esquentar do que essa dupla</h1>
+    <a href="jonata.html">Jonata e Danilo</a>
+</div>
 </body>
 </html>

@@ -1,28 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <style>
         .container {
-        
-        background: #b900e7;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+            background: #b900e7;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
         }
-        </style>
+        
+        h1 {
+            font-family: Arial, sans-serif;
+            font-size: 3rem;
+            text-align: center;
+            margin: 0;
+            padding: 0.5rem;
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+        
+        h3 {
+            font-size: 1.5rem;
+            text-align: justify;
+            margin: 1rem;
+        }
+        
+        iframe {
+            width: 100%;
+            height: 300px;
+        }
+        
+        /* Media query para dispositivos com largura menor ou igual a 500px */
+        @media screen and (max-width: 500px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h3 {
+                font-size: 1rem;
+            }
+            
+            iframe {
+                height: 200px;
+            }
+        }
+    </style>
     
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Duarte</title>
 </head>
 <body>
     <div class="container">
-    <h1> gabriel duarte coracini</h1>
+        <h1> gabriel duarte coracini</h1>
     </div>
     <div class="container">
-        <img src="https://media.discordapp.net/attachments/952623070542176347/952710475148316712/unknown.png" alt="Lamp" width="600" height="600">
+        <img src="https://media.discordapp.net/attachments/952623070542176347/952710475148316712/unknown.png" alt="Lamp">
     </div>
     <div class="container">
         <h3>
@@ -30,7 +68,7 @@
         </h3>
     </div>
     <div class="container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.737356619278!2d-47.728156085285654!3d-23.106708484910452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c612872615e4e1%3A0x8a1a42a1e398ed12!2sPosto%20De%20Saude%20Do%20Povo%20Feliz!5e0!3m2!1spt-BR!2sbr!4v1647216167282!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.737356619278!2d-47.728156085285654!3d-23.106708484910452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c612872615e4e1%3A0x8a1a42a1e398ed12!2sPosto%20De%20Saude%20Do%20Povo%20Feliz!5e0!3m2!1spt-BR!2sbr!4v1647216167282!5m2!1spt-BR!2sbr" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>
 </body>
 </html>
